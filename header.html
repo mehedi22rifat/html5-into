@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <style>
+        nav li{
+            /* text-decoration: none; */
+            list-style: none;
+            
+        }
+
+        nav li a{
+            text-decoration: none;
+            font-size:20px;
+            color:rgb(255, 99, 71);
+            font-weight: bold;
+            border: 2px solid rgb(226, 182, 182);
+            padding: 5px;
+            margin-right: 10px;
+            border-radius: 10px;
+        }
+        nav li a:hover{
+            background-color: rgb(124, 131, 131);
+            border-radius: 10px;
+            color: aliceblue;
+            border: 2px solid whitesmoke;
+        }
+
+
+
+nav>ul{
+    display:flex;
+    margin-top: 20px;
+}
+
+nav li .dropdawn{
+    display: none;
+    position: absolute;
+    padding-left: 15px;
+}
+
+nav li:hover .dropdawn{
+    display: block;
+}
+
+ .dropdawn li{
+    margin-top:15px;
+    text-decoration: none;
+            font-size:20px;
+            /* width: 30px;
+            background-color: darkcyan;
+               */
+
+}
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body style="background-color: green;">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                 <li><a href="#">Product</a></li>
+                 <li>
+                    <a href="#">contact</a>
+                    <ul class="dropdawn">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                         <li><a href="#">Product</a></li>
+                         <li><a href="#">contact</a></li>
+                         <li><a href="#">Service</a></li>
+                    </ul>
+                </li>
+                 <li><a href="#">Service</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>

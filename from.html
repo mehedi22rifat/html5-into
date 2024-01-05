@@ -1,0 +1,286 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehedi,s pita gor </title>
+    <style>
+        label{
+            display: block;
+            margin-bottom:10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+       <section>
+        <h2>Full up the from</h2>
+
+        the from section
+       <form>
+        <label for="name">Your Name:
+            <input type="text" id="name"  placeholder="Enter Your Name" id="">
+           </label>
+          
+           <label for="email">Your Email:
+            <input type="email" placeholder="Your Email" name="email" id="">
+           </label>
+    
+           <label for="Phone">Your Phone:
+            <input type="number" placeholder="Your Phone" name="Phone" id="Phone">
+            </label>
+            
+
+           <fieldset>
+             <legend>Pick one pita</legend>
+             <label for="chitoy">
+                <input type="radio" name="pitha" id="chitoy">Chitoy
+             </label>
+             <label for="Bapa">
+                <input type="radio" name="pitha" id="Bapa">Bapa
+             </label>
+             <label for="puri">
+                <input type="radio" name="Pitha" id="puri">Puri
+             </label>
+           </fieldset>
+    
+            <fieldset>
+                <legend>Pick one omre vorta</legend>
+                <label for="sorisa">
+                    <input type="checkbox" name="vorta" id="sorisa">Sorisa
+                </label>
+                <label for="amra">
+                    <input type="checkbox" name="vorta" id="amra">Amra
+                </label>
+                <label for="sutki">
+                    <input type="checkbox" id="sutki" name="vorta">Sutki
+                </label>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Special Instaction</legend>
+                <textarea name="" placeholder="Enter your Message" id="" cols="30" rows="10"></textarea>
+            </fieldset>
+            <fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </fieldset>
+
+       </form>
+       
+       </section>
+
+
+    </main> 
+    <footer>
+
+    </footer>
+</body>
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mehedi's pitha gor</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+
+        th,td{
+            border: 1px solid black;
+          padding: 5px 10px;
+        }
+
+
+      ul li{
+        list-style-type: none;
+        margin-right: 10px;
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+       
+      }
+
+      ul li a{
+        text-decoration: none;
+        color: black;
+        
+      }
+  
+       nav li:hover{
+        background-color: rgb(137, 135, 135);
+       }
+
+nav>ul{
+    display: flex;
+   
+}
+
+nav li .link{
+    display: none;
+    position: absolute;
+    padding-left: 10px;
+    background-color: darkcyan;
+}
+
+nav li:hover .link{
+    display: block;
+    background-color: beige;
+}
+    </style>
+</head>
+<body>
+
+    <header>
+      <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li>
+                <a href="#">Product</a>
+                <ul class="link">
+                    <li><a href="#">byecikel</a></li>
+                    <li><a href="#">car</a></li>
+                    <li><a href="#">hunda</a></li>
+                    <li><a href="#">motorcycle</a></li>
+                </ul>
+            </li>
+            <li><a href="#">contact</a></li>
+            <li><a href="#">footer</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+     <section>
+        <h2>Full up the from</h2>
+        <!-- from section start here -->
+        <form action="">
+            <label for="text">Your Name:
+                <input type="text" placeholder="Your Name" name="name" id="text">
+            </label>
+            <label for="email">Your Email:
+                <input type="email" placeholder="Your Email" name="" id="">
+            </label>
+            <label for="Phone">Phone:
+                <input type="text" placeholder="number" id="" name="">
+            </label>
+            <!-- end -->
+
+            <fieldset>
+                <legend>Pick one pitha</legend>
+                <label for="chitoy">
+                    <input type="radio" name="pitha" id="chitoy">Chitoy
+                </label>
+                <label for="Bapa">
+                    <input type="radio" name="pitha" id="Bapa">Bapa
+                </label>
+                <label for="Mithai">
+                    <input type="radio" name="pitha" id="Mithai">Mithai
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    Pick one more borta
+                </legend>
+                <label for="sorisa">
+                   <input type="checkbox" name="vorta" id="sorisa">Sorisa
+                </label>
+                <label for="sutki">
+                    <input type="checkbox" name="vorta" id="sutki">Sutki
+                </label>
+                <label for="moric">
+                    <input type="checkbox" name="vorta" id="moric">Moric
+                </label>
+            </fieldset>
+
+             <fieldset>
+                <legend>Espesial Instaction</legend>
+                <textarea name="" placeholder="Enter your message" id="" cols="30" rows="10"></textarea>
+             </fieldset>
+
+             <fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+             </fieldset>
+        </form>
+     </section>
+
+
+     <section>
+       <table>
+        <thead>
+           <tr>
+            <th>No</th>
+            <th>Name</th>
+            <th>Company</th>
+            <th>Salary</th>
+           </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Bill gats</td>
+            <td>Facebook</td>
+            <td>$1000</td>
+          </tr>
+
+          <tr>
+            <td>2</td>
+            <td>Elogn mask</td>
+            <td>Microsoft</td>
+            <td>$2000</td>
+          </tr>
+
+          <tr>
+            <td>3</td>
+            <td>Mehedi</td>
+            <td>Apple</td>
+            <td>$3000</td>
+          </tr>
+
+          <tr>
+            <td>4</td>
+            <td>Shabbir</td>
+            <td>google</td>
+            <td>$5000</td>
+          </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+       </table>
+     </section>
+
+    </main>
+    <footer>
+ <h3>lor</h3>
+    </footer>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
